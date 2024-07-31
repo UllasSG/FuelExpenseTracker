@@ -1,16 +1,15 @@
-# fuel_exp_tracker_update
+# fuel_exp_tracker_
 
-A new Flutter project.
+Fuel Expense Tracker is a Flutter application designed to help users monitor their fuel expenses efficiently. The app provides the following features:
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Current Fuel Prices: Fetches up-to-date fuel prices using an API.
+Expense Tracking: Allows users to record and manage fuel purchases.
+Monthly Expenditure: Displays total spending for the current month.
+Recent Transactions: Shows a list of recent fuel transactions.
+Local Storage: Utilizes Hive for secure and efficient local data storage.
+User Interface: Features intuitive dialogs for adding new entries and viewing details.
+Features
+Fetch Fuel Prices: Real-time data from an external API.
+Record Purchases: Input fuel amount and type, automatically calculates cost per liter.
+View Monthly Total: Summarizes expenses for the current month.
+Manage Transactions: List recent purchases and delete entries as needed.
